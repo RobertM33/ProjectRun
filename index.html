@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="A video showcasing running, with beautiful mountain views.">
-  <title>Run Boy Run</title>
+  <title>Project Run</title>
   <style>
     /* Global Styles */
     body {
@@ -39,17 +39,19 @@
     .video-section {
       margin: 40px 0;
       display: flex;
-      justify-content: center;
+      justify-content: space-around;  /* Adjust to display videos side by side */
       align-items: center;
-      flex-direction: column;
+      flex-wrap: wrap;
     }
 
     /* Video container */
     .video-container {
-      max-width: 80%;
+      width: 45%; /* Adjust width for two videos */
+      max-width: 100%;
       overflow: hidden;
       border-radius: 8px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      margin: 10px;
     }
 
     /* Description Section */
@@ -97,22 +99,26 @@
 
   <!-- Hero Section -->
   <div class="hero">
-    <h1>Run Boy Run</h1>
-    <h2>Watch my latest video on running through beautiful mountain landscapes</h2>
+    <h1>Project Run</h1>
+    <h2>Watch my latest videos on running through beautiful mountain landscapes</h2>
   </div>
 
   <!-- Video Section -->
   <div class="video-section">
-    <h2>Watch the Video</h2>
+    <h2>Watch the Videos</h2>
     <div class="video-container">
-      <!-- YouTube Embed -->
+      <!-- YouTube Embed 1 -->
       <iframe width="100%" height="auto" src="https://www.youtube.com/embed/wHKcg82tWLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video-container">
+      <!-- YouTube Embed 2 -->
+      <iframe width="100%" height="auto" src="https://www.youtube.com/embed/9bYpv8-KjTo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 
   <!-- Description Section -->
   <div class="description">
-    <p>In this video, I share my experience running through the stunning mountain ranges. Join me on an adventure filled with breathtaking views, fitness challenges, and an appreciation for nature.</p>
+    <p>In these videos, I share my experience running through stunning mountain ranges. Join me on an adventure filled with breathtaking views, fitness challenges, and an appreciation for nature.</p>
     <p>From uphill climbs to scenic trails, running through mountains is an experience unlike any other. Enjoy the journey with me and get inspired to take your own steps towards a healthier lifestyle!</p>
     <a href="YOUR_CALL_TO_ACTION_LINK_HERE" class="cta-button">Join the Adventure</a>
   </div>
